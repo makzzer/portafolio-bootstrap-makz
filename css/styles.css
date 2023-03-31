@@ -1,0 +1,46 @@
+body {
+    background-color:  #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/*con inline block le digo que los elementos se pongan uno al lado del otro*/
+header .logo h2,
+header .logo p{
+    font-size: 16px;
+    display: inline-block;
+}
+
+/*este pinta de color el puntito del hader*/
+header .logo .icono{
+    color: #bfbfbf;
+}
+
+header .menu .color1{
+    background: #3da5e2
+}
+
+header .menu .color2{
+    background: #005385
+}
+
+header .menu .color3{
+    background: #003855
+}
+
+header .menu .color1:hover{
+    background: #1790d5
+}
+
+header .menu .color2:hover{
+    background: #01314e
+}
+
+header .menu .color3:hover{
+    background: #002d44
+}
