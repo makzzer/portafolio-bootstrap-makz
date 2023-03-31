@@ -21,6 +21,16 @@ header .logo .icono{
     color: #bfbfbf;
 }
 
+header .logo svg {
+    width: 20px;
+    height: 20px;
+}
+
+header .logo p{
+    color: #777777
+
+}
+
 header .menu .color1{
     background: #3da5e2
 }
@@ -34,13 +44,13 @@ header .menu .color3{
 }
 
 header .menu .color1:hover{
-    background: #1790d5
+    background: #1685c5
 }
 
 header .menu .color2:hover{
-    background: #01314e
+    background: #014570
 }
 
 header .menu .color3:hover{
-    background: #002d44
+    background: #002233
 }
